@@ -64,7 +64,7 @@ async def alive_function(message: Message, answers):
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/9b992f562b086e221acdd.jpg",
+            thumb_url="https://te.legra.ph/file/e78fa9a7dc15432a9202b.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
@@ -92,7 +92,7 @@ async def ping_function(message: Message, answers):
         InlineQueryResultArticle(
             title="ping",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/9b992f562b086e221acdd.jpg",
+            thumb_url="https://te.legra.ph/file/e78fa9a7dc15432a9202b.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
@@ -102,7 +102,7 @@ async def ping_function(message: Message, answers):
 
 async def karman_function(message: Message, answers):
     msg = (
-        f"𝙿𝚈𝚁𝙾𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 \n"
+        f"𝚄𝚂𝙴𝚁𝙱𝙾𝚃 \n"
         "ㅤㅤsᴛᴀᴛᴜs : ᴘʀᴇᴍɪᴜᴍ ᴀᴋᴛɪғ \n"
         f"ㅤㅤㅤㅤᴍᴏᴅᴜʟᴇs:</b> <code>{len(modules)} Modules</code> \n"
         f"ㅤㅤㅤㅤʙᴏᴛ ᴠᴇʀsɪᴏɴ: {BOT_VER} \n"
@@ -112,7 +112,7 @@ async def karman_function(message: Message, answers):
         InlineQueryResultArticle(
             title="mz",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/9b992f562b086e221acdd.jpg",
+            thumb_url="https://te.legra.ph/file/e78fa9a7dc15432a9202b.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
@@ -130,7 +130,7 @@ async def help_function(answers):
         InlineQueryResultArticle(
             title="Help Article!",
             description="Check Command List & Help",
-            thumb_url="https://telegra.ph/file/9b992f562b086e221acdd.jpg",
+            thumb_url="https://te.legra.ph/file/e78fa9a7dc15432a9202b.jpg",
             input_message_content=InputTextMessageContent(
                 Data.text_help_menu.format(len(CMD_HELP))
             ),
