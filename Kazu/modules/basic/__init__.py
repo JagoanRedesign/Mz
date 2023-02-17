@@ -10,6 +10,5 @@ def restart():
 async def join(client):
     try:
         await client.join_chat("DutabotSupport")
- 	await client.join_chat("Arena4Me")
     except BaseException:
         pass
