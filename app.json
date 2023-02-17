@@ -1,6 +1,6 @@
 {
-  "name": "shinpyro-Userbot",
-  "description": "[shinpyro-Userbot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.  Powered by shinpyro-Userbot.",
+  "name": "Mz Userbot",
+  "description": "[Mz Userbot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.",
   "stack": "heroku-22",
   "env": {
     "API_ID": {
@@ -22,7 +22,7 @@
     },
     "SUDO_USERS": {
       "description": "masukan sudo user",
-      "value": "0",
+      "value": "",
       "required": false
     },
     "STRING_SESSION1": {
