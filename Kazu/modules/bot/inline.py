@@ -82,10 +82,10 @@ async def ping_function(message: Message, answers):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     msg = (
-        f"❏ PONG!!🏓\n"
-        f"├• Pinger -  `{duration}` ms\n"
-        f"└•  Uptime -"
-        f"`{uptime}` \n"
+        f"**❏ PONG!!🏓**\n"
+        f"├• **Pinger -**  {duration} ms\n"
+        f"└• **Uptime -**"
+        f"{uptime} \n"
       
     )
     answers.append(
